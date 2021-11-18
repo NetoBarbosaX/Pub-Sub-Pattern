@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app">
+      <form>
+        <h1>Publishers</h1>
+        <span>
+          First Event
+          <input type="text" id="first-input" />
+        </span>
+        <span>
+          Second Event
+            <input type="text" id="second-input" />
+        </span>
+      </form>
+    </div>
+
+    <br/>
+
+    <form>
+      <h1>Subscribers</h1>
+      <p>
+        <button id="first-un-subscriber-btn">UnSubscribe First Event</button>
+        <button id="first-subscriber-btn">Subscribe First Event</button> First Subscriber:
+        <span id="first-subscriber"></span>
+      </p>
+      <p>
+        <button id="second-un-subscriber-btn">UnSubscribe Second Event</button>
+        <button id="second-subscriber-btn">Subscribe Second Event</button> Second
+        Subscriber:
+        <span id="second-subscriber"></span>
+      </p>
+    </form>
+  </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
